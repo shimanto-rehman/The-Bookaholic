@@ -1,0 +1,154 @@
+
+.slider-section{
+	background: url("../images/bg4.jpg") no-repeat;
+	background-size: cover;
+	background-position: top center;
+	min-height: 660px;
+}
+
+.btn-container{
+	height: 660px;
+}
+
+.custom-btn {
+	  position: relative;
+	  top: 240px;
+	  height: 70px;
+	  font-size: 28px;
+	  background-color: #53BF6B;
+	  box-shadow:none;
+	  color:white;
+	  display: block;
+	  margin-top: 10px;
+}
+
+.headline-container {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.headline-container h1 {
+  color: $middle-headline-color;
+  font-size: 55px;
+  font-weight: 300;
+}
+
+.headline-border {
+  width: 181px;
+  height: 10px;
+  border-bottom: 2px solid #BBBBBB;
+  margin-bottom: 0px;
+}
+
+.middle-container {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.timeline-border {
+  width: 5px;
+  height: 820px;
+  background-color: $timeline-border-color;
+  position: absolute;
+  left: 580px;
+  top: 50px;
+  z-index: 100;
+}
+
+.full-box-container {
+  padding-top: 50px;
+}
+
+.box-icon-container {
+  background: url(../images/icon.png) no-repeat;
+  background-position: center center;
+  height: 240px;
+}
+
+.box-icon-1 {
+  background: url(../images/sharing-icon.png) no-repeat;
+  background-position: center center;
+  height: 240px;
+}
+
+.box-icon-2 {
+  background: url(../images/find-icon.png) no-repeat;
+  background-position: center center;
+  height: 240px;
+}
+
+.box-icon-3 {
+  background: url(../images/reliable.png) no-repeat;
+  background-position: center center;
+  height: 240px;
+}
+
+.box-text-container {
+  background-color: #F2F2F2;
+  height: 240px;
+  padding: 50px;
+}
+
+.box-text-container h2 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: $middle-headline-color;
+  font-weight: 400;
+}
+
+.box-text-container p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.team-section{
+	border-style: solid none none none;
+	border-width: 1px 0px 0px 0px;
+	border-color: #AAAAAB;
+	background-color: rgba(203, 203, 203, 0.4);
+
+}
+
+@font-face{
+	font-family: meetTheTeamFont;
+	src: url(../fonts/EdificeClassic_TB.ttf);
+}
+
+.team-container{
+	//border: solid 2px;
+}
+
+.team-headline-container{
+	margin: 30px 0px 40px 0px;
+	font-family: meetTheTeamFont;
+	
+}
+.team-headline-container h3{
+	font-size: 35px;
+}
+
+.member-container{
+	//border: solid 2px;
+	width: 600px;
+	margin: auto;
+	padding: 0px 20px 30px 20px;
+}
+
+.member-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.member-name{
+	line-height: 13px;
+	font-size: 17px;
+}
+.member-position{
+	line-height: 10px;
+	font-size: 15px;
+}
+.member-inst{
+	line-height: 10px;
+	font-size: 15px;
+}

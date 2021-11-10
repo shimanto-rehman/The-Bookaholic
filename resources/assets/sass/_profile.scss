@@ -1,0 +1,164 @@
+
+.profile-section{
+	min-height: 522px;
+}
+
+.cover-container{
+	background: url("../images/cover.jpg") no-repeat;
+	background-size: cover;
+	background-position: top center;
+	min-height: 200px;
+}
+
+.about-me-section{
+	background-color: #D6564B;
+	height: 180px;
+}
+
+.profile-pic{
+	border-style: solid;
+	border-color: #D6564B;
+	border-width: 6px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 190px;
+	margin-top: -100px;
+}
+
+@font-face{
+	font-family: nameFont;
+	src: "../fonts/Magnolia Script.otf";
+}
+
+.profile-name{
+	font-family: Georgia;
+	color: #D6D3D1;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+.profile-addrs{
+	font-family: Lucida Console;
+	font-size: 16px;
+	color: #D6D3D1;
+	margin-top: 2px;
+}
+
+.profile-body{
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+
+.profile-nav-section{
+	font-size: 20px;
+}
+
+.book-section{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.section-name-container{
+	border-style: none none solid none;
+	border-width: 0px 0px 1px 0px;
+	border-color: #C8C3C0;
+}
+
+.section-name-container h3{
+	font-size: 24px;
+	font-family: "Segoe UI";
+}
+
+.book-container{
+	height: 140px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #BFB9B4;
+	border-radius: 5px;
+	margin-top: 40px;
+	padding: 0px;
+	display: block;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+.book-container:hover{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ABABAB;
+	border-radius: 0px;
+	background-color: #EEFAFF;
+  	transition: all 0.2s ease 0.2s;
+}
+
+.book-cover-container{
+	padding: 0px;
+	/*
+	background-color: #EEEAE7;
+	*/
+	background-color: transparent;
+}
+
+.book-cover-container img{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.book-cover-container img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.book-info-section{
+	padding: 10px 20px 10px 20px;
+}
+
+.book-info-section a{
+	display: inline;
+	z-index: 100;
+}
+
+.book-info-section h3{
+	margin-top: 6px;
+	margin-bottom: 4px;
+}
+
+.book-info-section h4{
+	margin-top: 0px;
+}
+
+.book-info-section div{
+	border-style: solid none none none;
+	border-width: 1px 0px 0px 0px;
+	border-color: #A19389;
+	margin-top: 14px;
+	padding: 5px;
+}
+
+.pagination-section{
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0px;
+}
+
+.pagination-section ul{
+	margin-top: 35px;
+	margin-bottom: 0px;
+}
+
+.info-section{
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+.info-section h4{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.info-section address{
+	margin-top: 15px;
+	font-size: 16px;
+}

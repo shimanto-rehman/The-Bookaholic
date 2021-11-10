@@ -1,0 +1,117 @@
+body{
+  background: url(../images/bg.png);
+  font-family: $primary-font;
+}
+
+.main-wrapper{
+  min-height: 100vh;
+  position: relative;
+}
+
+.body-wrapper{
+  padding-bottom: 70px;
+}
+
+.foot-wrapper{
+
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+
+}
+
+.grid-container-wrapper {
+  min-height: 1000px;
+  background: white;
+  padding: 50px 0px;
+}
+
+.grid-container {
+  background: white;
+  border-radius: 8px;
+  margin: 0px auto;
+}
+
+.grid-title-container {
+  padding: 20px 0px 54px 0px;
+}
+.grid-title-container h1{
+    font-weight: 300;
+}
+.grid-items-container {
+
+}
+
+.grid-item {
+  position: relative;
+  height: 240px;
+  border: 5px solid #fff;
+  box-shadow: 0px 1px 3px $grid-shadow;
+  margin-bottom: 40px;
+  background: white;
+  border-radius: 3px;
+  transition: .2s ease-in;
+}
+.grid-item:hover{
+  box-shadow: 0px 3px 5px $grid-shadow;
+}
+.grid-item-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.grid-item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.grid-item-name {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: block;
+  background: rgba(43, 43, 43, .4);
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 0;
+  transition: .2s ease-in;
+  cursor: pointer;
+  font-weight: 300;
+}
+.grid-item:hover .grid-item-name{
+  background: rgba(43, 43, 43, 0.8)
+}
+.subtle-button{
+  background:white;
+  box-shadow: 0px 0px 0px 4px #DEDEDE inset;
+  color: #DEDEDE;
+  font-weight: 300;
+  transition: all .3s ease;
+  border-radius: 0;
+  padding: 15px 30px;
+  width:auto;
+  background: transparent;
+}
+.subtle-button:hover{
+  background-color: #53BF6B;
+  background-position: 112px 18px;
+  text-decoration: none !important;
+  box-shadow: 0px 0px 0px 0px #CCC inset;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+}
+.subtle-button:visited, .subtle-button:focus, .subtle-button:active{
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+}

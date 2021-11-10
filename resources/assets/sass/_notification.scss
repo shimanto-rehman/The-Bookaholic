@@ -1,0 +1,62 @@
+.notification-body{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.notification-nav-section{
+	font-size: 20px;
+}
+
+.request-section, .news-section{
+	margin-top: 30px;
+	padding-left: 0px;
+}
+
+.notification-bar{
+	height: 80px;
+	padding: 16px 20px 20px 20px;
+	margin-top: 10px;
+	border-style: solid none solid none;
+	border-width: 1px 0px 1px 0px;
+	border-color: #C1BCBC;
+	background-color: #FCFCFC;
+}
+
+.notification-bar img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.notification-bar h5{
+	line-height: 25px;
+	margin: 10px 0px 0px 0px;
+	font-size: 18px; 
+}
+
+.notification-bar-2 h5{
+	line-height: 25px;
+	margin: 0px;
+	font-size: 18px; 
+}
+
+.notification-bar a:hover{
+	text-decoration: none;
+}
+
+.notification-text{
+	margin: 0px;
+	padding: 0px;
+}
+
+.notification-btn{
+	padding-top: 2px;
+}
+
+.notification-btn a{
+	width: 90px;
+	margin-left: 10px;
+}
+
+.unread-notification{
+	background-color: #EEEEEE;
+}

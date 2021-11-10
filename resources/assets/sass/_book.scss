@@ -1,0 +1,102 @@
+
+.book-header-section{
+	height: 350px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.book-header-section img{
+	display: block;
+	height: 350px;
+}
+
+.book-intro-section{
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+	top: 240px;
+}
+
+.book-intro-section h3{
+	margin-bottom: 0px;
+}
+
+.book-intro-section h4{
+	margin-top: 3px;
+	font-size: 20px;
+}
+
+.book-intro-section h5{
+	font-family: "Tahoma";
+	font-size: 18px;
+}
+
+.book-description-container{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 20px 20px 20px 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CDCDCD;
+	border-radius: 5px;
+	background-color: #E9E9E9;
+}
+
+.book-description-container p{
+	margin: 0px;
+	font-size: 15px;
+}
+
+.book-edit-section form{
+	font-size: 18px;
+}
+
+.book-edit-section h3{
+	margin-bottom: 15px;
+}
+
+.shared-section{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.shared-section h4{
+	margin: 0px;
+}
+
+.shared-section a:hover{
+	text-decoration: none;
+}
+
+.shared-section div{
+	display: block;
+	width: 265px;
+	height: 70px;
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.request-btn{
+  font-family: "Geneva";
+  font-size: 20px;
+  background: white;
+  box-shadow: 0px 0px 0px 4px #DEDEDE inset;
+  color: #737373;
+  font-weight: 300;
+  transition: all .3s ease;
+  border-radius: 0;
+  padding: 15px 30px;
+  width: auto;
+  background: transparent; 
+ }
+
+.request-btn:hover{
+  font-size: 20px;
+  background-color: #53BF6B;
+  background-position: 112px 18px;
+  text-decoration: none !important;
+  box-shadow: 0px 0px 0px 0px #CCC inset;
+  transition: all 0.3s ease 0s;
+  color: #F1F1F1; 
+ }

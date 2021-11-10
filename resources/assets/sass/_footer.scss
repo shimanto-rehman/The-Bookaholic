@@ -1,0 +1,41 @@
+.footer-area {
+  background-color: $footer-color;
+  width: 100%;
+}
+
+.footer-container {
+  height: 70px;
+}
+
+.footer-logo-container {
+  background: url("../images/logo.png") no-repeat;
+  background-size: 140px 70px;
+  background-position: center center;
+  height: 70px;
+}
+
+.footer-nav {
+  background: none;
+  border: none;
+  min-height: 40px !important;
+}
+
+.footer-menu-list {
+  padding: 0px;
+}
+.footer-menu-list li a{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.footer-menu-list li a:hover {
+  color: #666 !important;
+}
+
+.footer-menu-list > li:first-child a {
+  padding-left: 0px;
+}
+
+.footer-menu-container p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
